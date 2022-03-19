@@ -1,4 +1,4 @@
-name: Nuxt Tests
+name: Gatsby Tests
 
 on:
     push:
