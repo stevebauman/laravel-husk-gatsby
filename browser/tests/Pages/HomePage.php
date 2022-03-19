@@ -16,16 +16,4 @@ class HomePage extends Page
     {
         return '/';
     }
-
-    /**
-     * Assert that the browser is on the page.
-     *
-     * @param Browser $browser
-     *
-     * @return void
-     */
-    public function assert(Browser $browser)
-    {
-        $browser->waitUntilMissing('#nuxt-loading')->waitFor('#__layout');
-    }
 }
